@@ -49,8 +49,8 @@
   - 변환된 HTTP 응답을 DispatcherServlet이 받아 클라이언트에 반환
 
 ### 📌 HTTP 메시지 컨버터 (HttpMessageConverter)의 역할과 동작 시점
-#### 역할 : 컨트롤러에서 반환한 객체를 적절한 HTTP 응답 형식(JSON, XML 등)으로 변환한다. 
-#### 동작 시점 : 컨트롤러에서 응답 데이터를 반환할 때 DispatcherServlet이 이를 감지해 HttpMessageConverter를 호출한다.
+#### - 역할 : 컨트롤러에서 반환한 객체를 적절한 HTTP 응답 형식(JSON, XML 등)으로 변환한다. 
+#### - 동작 시점 : 컨트롤러에서 응답 데이터를 반환할 때 DispatcherServlet이 이를 감지해 HttpMessageConverter를 호출한다.
 ##### 💠 예제 코드 
 ```
 @RestController
